@@ -1,7 +1,7 @@
 /****Imports****/
 
 //require the Status code to use based on the res
-const {StatusCodes,getReasonPhrase} = require('http-status-codes');
+const {StatusCodes} = require('http-status-codes');
 const initJob = require('../../../cronJob/job');
 
 
@@ -11,7 +11,7 @@ const jobEndpoint = (req,res)=>{
         initJob()
         res.json({message:'response sent'})
     } catch (error) {
-        res.json({message:'error while intiating the cron job',error})
+        res.status(StatusCodes.INTERNAL_SERVER_ERROR).json({message:'error while intiating the cron job',error});
     }
  
 }

@@ -3,8 +3,8 @@ TechSquadeg
 
 This simple project to show some basics on each and every project that show us how to intiate a Node project from scratch, use a 3rd party packages to do specific job and create the API.
 
-
 ————————————————————————————————————
+
 What includes?
 In this project we’re using some NPM packages to help us using Node functionalities and make our coding faster by using these 3rd part modules, There’re two types dependencies and devDependencies, the different is some of these packages we’re using them just on the developing process we actually don’t need them on the deploy phase but other packages we actually need them all the time.
 We’re using for the Dependencies:
@@ -18,6 +18,7 @@ We’re using for the Dependencies:
     nodemon ^2.0.15
 
 ————————————————————————————————————
+
 Usage for each NPM package?
  
     dotenv:
@@ -36,6 +37,7 @@ In a real world when we make update on the backend the server should not stop an
 
 
 ————————————————————————————————————
+
 What are the Folders in this project…
 
 
@@ -64,8 +66,8 @@ CronJob
 This folder used to create the scheduled job so I can import it on the POST API to intiate
 
 
-
 ————————————————————————————————————
+
 APIs…
 
 On this project we’re using POST API vary to provide us with what we need
@@ -76,6 +78,7 @@ Http POST request to intiate the cron job and gives a response directly without 
 Video running the API: 
 
 ————————————————————————————————————
+
 My way of thinking…
 
 Any project I create from scratch I think about things in order like at first what I want to do what’s the output, So here I had four main goals:
@@ -98,8 +101,6 @@ Left outs?
 As for each line of code we need to this about what we want to achieve, what’s the output and a lot of things and we prefer a good quality of the code not a huge project with missing functions and a lot of errors but as you can see in this project it’s just s simple CRUD operations for just one module connected with the database.
 But the question here if we have an extra time what we’re going to add here??
 There’re a lot of other logic, NPM packages and ideas not on this project like for example how while working on a collection reference on a value on another collection, How to create another APIs, Autherntication and authorization
-
-
 
 ————————————————————————————————————
 
